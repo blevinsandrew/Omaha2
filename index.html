@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css" />
+
+    <title>website stuff</title>
+  </head>
+  <body>
+    <header>
+    
+      <nav class="navbar" id="navbar">
+       
+        <div class="row" id="navbar-container">
+          <div class="time-container">
+            <div class="time">
+              <span id="hours">10</span>
+              <span id="minutes">15</span>
+              <span id="seconds">00</span>
+            </div>
+          </div>
+          <ul>
+            <li><a href="#">Sports</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Weekend</a></li>
+            <li><a href="#">Restaurants</a></li>
+          </ul>
+          <img src="css/images/omaha-logo.jpeg" alt="omaha logo" class="logo" />
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>Omaha <br/>It's not for everyone</h1>
+        
+        <a class="btn btn-full" id="modalBtn" href="#">Newsletter</a>
+        <a class="btn btn-ghost" href="#">Local Government</a>
+      </div>
+    </header>
+       <!-- modal -->
+       <div id="simpleModal" class="modal">
+        <div class="modal-content">
+          <span class="closeBtn">&times;</span>
+          <h2>Sign up for Omaha's newletter</h2>
+          <p>Simply type in your Email address and you will be notified of upcoming events in the Omaha/metro area</p>
+          <form>
+            <input type="email" id="email" name="email" placeholder="Enter email here">
+            <input type="submit" value="Send Request">
+
+          </form>
+        </div>
+      </div>
+      <section class="testimonial-section" >
+        <div class="row">
+          <h2>Why Omaha?</h2>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <img class="person" src="https://randomuser.me/api/portraits/men/67.jpg" alt="Johnny">
+            <cite class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor voluptates sed ut eos ducimus, repudiandae ipsam dicta est. Dicta sit, quod doloremque quibusdam facere cum ipsum. Ullam, dolorem amet? Veniam!"</cite>
+          </div>
+          
+          <div class="col span-1-of-3">
+            <img class="person" src="https://randomuser.me/api/portraits/women/64.jpg" alt="Samantha">
+            <cite class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor voluptates sed ut eos ducimus, repudiandae ipsam dicta est. Dicta sit, quod doloremque quibusdam facere cum ipsum. Ullam, dolorem amet? Veniam!"</cite>
+          </div>
+          
+          <div class="col span-1-of-3">
+            <img class="person" src="https://randomuser.me/api/portraits/lego/6.jpg" alt="Rodrigo">
+            <cite class="quote">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor voluptates sed ut eos ducimus, repudiandae ipsam dicta est. Dicta sit, quod doloremque quibusdam facere cum ipsum. Ullam, dolorem amet? Veniam!"</cite>
+          
+          </div>
+      </section>
+      <footer>
+        <div class="row">
+          <div class="col span-1-of-2">
+            <ul class="footer-nav">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">IOS App</a></li>
+              <li><a href="#">Android App</a></li>
+            </ul>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-2">
+            <ul class="social-links">
+              <li><a href="#"><ion-icon class="social-facebook" name="logo-facebook"></ion-icon></a></li>
+              <li><a href="#"><ion-icon class="social-twitter" name="logo-twitter"></ion-icon></a></li>
+              <li><a href="#"><ion-icon class="social-snapchat" name="logo-snapchat"></ion-icon></a></li>
+              <li><a href="#"><ion-icon class="social-youtube" name="logo-youtube"></ion-icon></a></li>
+            </ul>
+        <!-- </div> -->
+      </div>
+      <div class="row">
+        <p>
+          Copyright &copy; 2021 by Omaha.  All Rights Reserved.
+        </p>
+      </div>
+      </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
